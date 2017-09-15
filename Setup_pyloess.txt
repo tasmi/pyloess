@@ -1,0 +1,10 @@
+ git clone https://github.com/tasmi/pyloess/
+ cd pyloess
+ git checkout tasmi-patch-1
+ #MODIFY SETUP.PY line 62 to reflect your top-level directory (where python is installed)
+ python setup.py install --user
+ cd ..
+ #Rename pyloess in case it is on your path/pythonpath
+ mv pyloess pyloess-master 
+ 
+ 
